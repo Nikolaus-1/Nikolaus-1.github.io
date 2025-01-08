@@ -1,14 +1,12 @@
 .container {
   width: 400px;
-  hight: 225px;
-  margin-left: 26px;
+  hight: 100px;
 }
 
 div {
+  display: flex;
+  align-items:center;
+  justify-content:center;
   margin: 10px;
   padding-right: -10px;
-}
-
-.large {
-  margin-left: 10px;
 }
