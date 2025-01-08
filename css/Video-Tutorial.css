@@ -1,0 +1,32 @@
+.container {
+  width: 400px;
+  hight: 225px;
+  border: none;
+  margin-left: 26px;
+}
+
+div {
+  margin: 10px;
+  border: 2px solid black;
+  padding-right: -10px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.small {
+  margin-left: 110px;
+}
+
+.mediem {
+  margin-left: 80px;
+}
+
+.large {
+  margin-left: 10px;
+}
+
+iframe {
+border: none;
+}
