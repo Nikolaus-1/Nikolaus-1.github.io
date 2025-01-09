@@ -1,0 +1,89 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 250%;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.Ipenguins {
+  border-radius: 100%;
+  filter: sepia(48%);
+  border: 1px solid black;
+  width: 100%;
+  position: relative;
+  float: left;
+  top: 20%;
+  left:15%;
+}
+
+.Ifootball {
+  filter: grayscale(100%);
+  max-width: 30%;
+  position: absolute;
+  left:40%;
+  top: 25%;
+}
+
+.Idinosaur {
+  border-radius: 100%;
+  filter: hue-rotate(90deg) drop-shadow(7px 0px 7px #000000);
+  max-width: 25%;
+  position: absolute;
+  right: 5%;
+  top: 9%
+  
+}
+
+.Iseagull {
+  box-shadow: 0px 22px 16px 0px rgba(84,84,84,0.44);
+  background: #7478d5;
+  background: linear-gradient(313deg,#7478d5 0%, #ffffff 110%);
+  background: -webkit-linear-gradient(313deg,#7478d5 0%, #ffffff 110%);
+  background: -moz-linear-gradient(313deg,#7478d5 0%, #ffffff 110%);
+  max-width: 30%;
+  position:absolute;
+  top: 70%;
+  left: 5%;
+}
+
+.Ibutterfly {
+  filter: opacity(65%) contrast(154%) invert(100%);
+  border-radius: 35px 0px 35px 0px;
+  max-width: 30%;
+  position: absolute;
+  left:38%;
+  top: 70%;
+}
+
+.Itheater {
+  max-width: 26%;
+  filter: blur(2px);
+  position: absolute;
+  right: 5%;
+  top: 70%
+  
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 250%;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  right:10%;
+  top: 86%;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.58);
+
+
+}
+
+.entire {
+  max-width: 30%;
+
+  display: inline-block;
+}
+
+div {
+  padding-left: 20px;
+}
