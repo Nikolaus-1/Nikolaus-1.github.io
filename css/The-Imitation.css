@@ -76,8 +76,7 @@ p {
   position: absolute;
   right:10%;
   top: 86%;
-  text-shadow: 4px 4px 4px rgba(0,0,0,0.6);
-
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.8);
 }
 
 .entire {
