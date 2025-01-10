@@ -1,0 +1,214 @@
+.OuterNavi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.active {
+  background-color: #04AA6D;
+  cursor: default;
+}
+
+.OuterNavi {
+  top: 0;
+  width: 100%;
+}
+
+.Navi {
+  float: left;
+}
+
+.Navi a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navi a:hover {
+  background-color: #111;
+}
+
+.Navi a.active:hover {
+background-color: #04AA6D;
+}
+
+.Navi {
+  border-right: 1px solid #bbb;
+}
+
+.Navi:last-child {
+  border-right: none;
+}
+
+.staff .team-member:nth-child(1) {
+  position: relative;
+  float: left;
+  width: 48%;
+}
+
+.staff .team-member:nth-child(2) {
+  position: relative;
+  float: right;
+  width: 48%;
+}
+
+.staff .team-member:nth-child(3) {
+  position: absolute;
+  left: 0;
+  top: 250px;
+  width: 48%;
+}
+
+.staff .team-member:nth-child(4) {
+  position: absolute;
+  right: 0;
+  top: 250px;
+  width: 48%;
+}
+
+.staff .team-member {
+  max-width: 48%;
+
+  display: inline-block;
+
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.staff p {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  max-width: 180px
+}
+
+.staff img {
+  padding-top: 5px;
+  padding-right: 5px;
+  float: left;
+  max-width: 180px;
+}
+
+.staff div {
+  padding-top: 20px;
+  padding-left:30px;
+  padding-right:30px;
+  text-align:center;
+}
+
+.staff p {
+  padding-left:-10px;
+  padding-right:-10px;
+}
+
+.info p{
+  font-family: "Times New Roman", Times, serif;
+  font-style: bold, italic;
+  float: left;
+}
+
+.center div {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.center img {
+  padding-right: 5px;
+  max-width: 180px;
+}
+
+.center .team-member {
+  max-width: 45%;
+
+  display: inline-block;
+
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  
+  text-align:center;
+}
+
+.center {
+  border-bottom: 1px solid grey;
+}
+
+.home h1 {
+  text-align: center;
+  font-family: "Times New Romen", serif;
+  font-style: bold, italic;
+}
+
+.home .image1 {
+  padding: 10px;
+  text-align: center;
+  max-width: 32%;
+  font-size: 1.3em;
+  font-family: "Times New Roman", Times, serif;
+  padding-right:30px;
+}
+
+.image1 p {
+  transform: translateY(-8%)
+} 
+
+.image1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.image1 a p:hover {
+  text-decoration: underline;
+}
+
+.body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.body .container {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.body h2 {
+  text-align: center;
+}
+
+.body .service {
+  margin-bottom: 20px;
+}
+
+.about {
+  font-family: "Times New Roman", Times, serif;  margin: 0;
+  padding: 0;
+}
+
+.about header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about h1 {
+  margin: 0;
+}
+
+.about main {
+  padding: 20px;
+}
+
+.about .about-section {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about h2 {
+  color: #333;
+}
+
+.about h3 {
+  color: #444;
+}
