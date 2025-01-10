@@ -1,23 +1,28 @@
+/* General Styles */
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Styles */
 .OuterNavi {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-}
-
-.active {
-  background-color: #04AA6D;
-  cursor: default;
-}
-
-.OuterNavi {
   top: 0;
   width: 100%;
 }
 
 .Navi {
   float: left;
+  border-right: 1px solid #bbb;
+}
+
+.Navi:last-child {
+  border-right: none;
 }
 
 .Navi a {
@@ -33,56 +38,21 @@
 }
 
 .Navi a.active:hover {
-background-color: #04AA6D;
+  background-color: #04AA6D;
 }
 
-.Navi {
-  border-right: 1px solid #bbb;
+.active {
+  background-color: #04AA6D;
+  cursor: default;
 }
 
-.Navi:last-child {
-  border-right: none;
-}
-
-.staff .team-member:nth-child(1) {
-  position: relative;
-  float: left;
-  width: 48%;
-}
-
-.staff .team-member:nth-child(2) {
-  position: relative;
-  float: right;
-  width: 48%;
-}
-
-.staff .team-member:nth-child(3) {
-  position: absolute;
-  left: 0;
-  top: 250px;
-  width: 48%;
-}
-
-.staff .team-member:nth-child(4) {
-  position: absolute;
-  right: 0;
-  top: 250px;
-  width: 48%;
-}
-
+/* Staff Page Styles */
 .staff .team-member {
   max-width: 48%;
-
   display: inline-block;
-
   border-left: 1px solid grey;
   border-right: 1px solid grey;
-}
-
-.staff p {
-  font-family: "Times New Roman", Times, serif;
-  float: left;
-  max-width: 180px
+  padding: 20px;
 }
 
 .staff img {
@@ -92,27 +62,20 @@ background-color: #04AA6D;
   max-width: 180px;
 }
 
-.staff div {
-  padding-top: 20px;
-  padding-left:30px;
-  padding-right:30px;
-  text-align:center;
-}
-
 .staff p {
-  padding-left:-10px;
-  padding-right:-10px;
-}
-
-.info p{
   font-family: "Times New Roman", Times, serif;
-  font-style: bold, italic;
   float: left;
+  max-width: 180px;
 }
 
+.staff div {
+  text-align: center;
+}
+
+/* Center Class Styles */
 .center div {
-  padding-left:10px;
-  padding-right:10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .center img {
@@ -122,23 +85,22 @@ background-color: #04AA6D;
 
 .center .team-member {
   max-width: 45%;
-
   display: inline-block;
-
   border-left: 1px solid grey;
   border-right: 1px solid grey;
-  
-  text-align:center;
+  text-align: center;
 }
 
 .center {
   border-bottom: 1px solid grey;
 }
 
+/* Home Page Styles */
 .home h1 {
   text-align: center;
-  font-family: "Times New Romen", serif;
-  font-style: bold, italic;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .home .image1 {
@@ -147,12 +109,12 @@ background-color: #04AA6D;
   max-width: 32%;
   font-size: 1.3em;
   font-family: "Times New Roman", Times, serif;
-  padding-right:30px;
+  padding-right: 30px;
 }
 
 .image1 p {
-  transform: translateY(-8%)
-} 
+  transform: translateY(-8%);
+}
 
 .image1 a {
   text-decoration: none;
@@ -163,30 +125,7 @@ background-color: #04AA6D;
   text-decoration: underline;
 }
 
-.body {
-  font-family: "Times New Roman", Times, serif;
-  margin: 0;
-  padding: 0;
-}
-
-.body .container {
-  margin: 20px auto;
-  padding: 20px;
-}
-
-.body h2 {
-  text-align: center;
-}
-
-.body .service {
-  margin-bottom: 20px;
-}
-
-.about {
-  font-family: "Times New Roman", Times, serif;  margin: 0;
-  padding: 0;
-}
-
+/* About Page Styles */
 .about header {
   padding: 20px 0;
   text-align: center;
@@ -211,4 +150,18 @@ background-color: #04AA6D;
 
 .about h3 {
   color: #444;
+}
+
+/* Container Styles */
+.body .container {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.body h2 {
+  text-align: center;
+}
+
+.body .service {
+  margin-bottom: 20px;
 }
