@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>The News Paper</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/Finally.css"/>
 </head>
 
 <body>
@@ -18,7 +17,6 @@
   </ul>
 
   <h1 class="title">Contact the Team</h1>
-
   <div class="center">
     <div style="border-left:none;" class="team-member">
       <h3>Elliette Le Clair, <i>Head CEO</i></h3>
@@ -27,7 +25,8 @@
     </div>
     <div style="border:none;" class="team-member">
       <h3>Luke Den, <i>Head Researcher</i></h3>
-      <img src="Images/pexels-lestrade84-17811.jpg" alt="A toucan looking off into the distance">
+      <img src="Images/pexels-lestrade84-17811.jpg"
+        alt="A toucan looking off into the distance">
       <p class="info">###-###-####<br>Luke.Den_9824@organization.org</p>
     </div>
     <div class="team-member">
@@ -41,15 +40,17 @@
       <p class="info">###-###-####<br>Jessica.Flinch_3278@organization.org</p>
     </div>
   </div>
-
-  <!-- Contact Form -->
+  
   <div class="contact-form">
-    <h2>Contact Us</h2>
-    <form action="/submit_contact_form" method="post">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
+    <h2 class="title">Contact Us</h2>
+    <form action="/submit_contact" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
     </form>
   </div>
 </body>
