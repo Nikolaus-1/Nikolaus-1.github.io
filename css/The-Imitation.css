@@ -25,7 +25,6 @@ h1 {
   filter: grayscale(100%);
   position: absolute;
   left: 35%;
-  top: 23%;
   border: solid 50px #000;
   border-image: url(Images/tic-tac-toe.png) 50 round;
   width: var(--football-width);
