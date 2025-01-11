@@ -31,17 +31,14 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1em;
 }
 
 .Navi a:hover {
   background-color: #111;
 }
 
-.Navi a.active:hover {
-  background-color: #04AA6D;
-}
-
-.active {
+.Navi a.active {
   background-color: #04AA6D;
   cursor: default;
 }
@@ -146,9 +143,8 @@ body {
   text-align: center;
 }
 
-.about h1 {
-  margin: 0;
-  text-align: center; /* Centered */
+.about h1, .about h2, .about h3 {
+  text-align: center;
 }
 
 .about main {
@@ -162,12 +158,10 @@ body {
 
 .about h2 {
   color: #333;
-  text-align: center; /* Centered */
 }
 
 .about h3 {
   color: #444;
-  text-align: center; /* Centered */
 }
 
 /* Container Styles */
@@ -202,29 +196,37 @@ body {
 
 .service h3 {
   margin: 0 0 10px 0;
-  text-align: center; /* Centered */
+  text-align: center;
 }
 
 .service p {
   margin: 0;
 }
 
-/* Contact Page Styles */
+/* Contact Form Styles */
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
+  max-width: 80%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 10px;
-  margin: 10px 0;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .contact-form button {
@@ -232,38 +234,42 @@ body {
   background-color: #04AA6D;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: #037f58;
+  background-color: #03a05a;
 }
 
 /* Table Styles */
 .table-container {
-  margin: 20px auto;
-  padding: 20px;
   max-width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
 }
 
-table {
+.table-container table {
   width: 100%;
   border-collapse: collapse;
 }
 
-th, td {
+.table-container th,
+.table-container td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
 
-th {
+.table-container th {
   background-color: #f2f2f2;
-  color: black;
+  font-weight: bold;
 }
 
-/* Commenting for future updates */
-/* TODO: Add responsive design styles */
-/* TODO: Improve accessibility (ARIA roles, contrast, etc.) */
-/* TODO: Optimize images for better load times */
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-container tr:hover {
+  background-color: #ddd;
+}
