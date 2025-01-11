@@ -46,8 +46,8 @@ body {
   cursor: default;
 }
 
-/* Top Heading Styles */
-.top-title {
+/* Title Styles */
+.title {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -56,7 +56,7 @@ body {
   margin: 20px 0; /* Adjust the margin as needed */
 }
 
-/* Other Page Styles */
+/* Home Page Styles */
 .home .image1 {
   display: flex;
   align-items: center;
