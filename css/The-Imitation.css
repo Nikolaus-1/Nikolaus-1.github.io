@@ -19,12 +19,12 @@ h1 {
 
 .Ifootball {
   filter: grayscale(100%);
-  border: solid 50px #000;   (change order so "solid" is first)
-  border-image: url(Images/tic-tac-toe.png) 50 round;
   max-width: 30%;
   position: absolute;
   left: 38%;
   top: 9%;
+  border: solid 50px #000;   (change order so "solid" is first)
+  border-image: url(Images/tic-tac-toe.png) 50 round;
 }
 
 .Idinosaur {
