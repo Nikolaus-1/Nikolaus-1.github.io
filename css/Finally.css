@@ -47,21 +47,16 @@ body {
 }
 
 /* Top Heading Styles */
-.top-heading {
+.top-title {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-style: italic;
+  font-size: 2em; /* Adjust the size as needed */
+  margin: 20px 0; /* Adjust the margin as needed */
 }
 
-/* Home Page Styles */
-.home h1 {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-style: italic;
-}
-
+/* Other Page Styles */
 .home .image1 {
   display: flex;
   align-items: center;
