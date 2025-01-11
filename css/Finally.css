@@ -1,275 +1,292 @@
 /* General Styles */
 body {
-  font-family: "Times New Roman", Times, serif;
-  margin: 0;
-  padding: 0;
+font-family: "Times New Roman", Times, serif;
+margin: 0;
+padding: 0;
 }
 
 /* Navigation Styles */
 .OuterNavi {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  top: 0;
-  width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+top: 0;
+width: 100%;
 }
 
 .Navi {
-  float: left;
-  border-right: 1px solid #bbb;
+float: left;
+border-right: 1px solid #bbb;
 }
 
 .Navi:last-child {
-  border-right: none;
+border-right: none;
 }
 
 .Navi a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1em;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 .Navi a:hover {
-  background-color: #111;
+background-color: #111;
 }
 
-.Navi a.active {
-  background-color: #04AA6D;
-  cursor: default;
+.Navi a.active:hover {
+background-color: #04AA6D;
+}
+
+.active {
+background-color: #04AA6D;
+cursor: default;
 }
 
 /* Title Styles */
 .title {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 2em; /* Adjust the size as needed */
-  margin: 20px 0; /* Adjust the margin as needed */
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+font-style: italic;
+font-size: 2em; / Adjust the size as needed /
+margin: 20px 0; / Adjust the margin as needed */
 }
 
 /* Home Page Styles */
 .home .image1 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  text-align: left;
-  max-width: 80%;
-  margin: 0 auto;
-  font-size: 1.3em;
-  font-family: "Times New Roman", Times, serif;
+display: flex;
+align-items: center;
+padding: 10px;
+text-align: left;
+max-width: 80%;
+margin: 0 auto;
+font-size: 1.3em;
+font-family: "Times New Roman", Times, serif;
 }
 
 .image1 img {
-  max-width: 40%;
-  height: auto;
-  margin-right: 20px;
+max-width: 40%;
+height: auto;
+margin-right: 20px;
 }
 
 .text-content {
-  max-width: 60%;
+max-width: 60%;
 }
 
 .text-content p {
-  margin: 0 0 10px 0;
+margin: 0 0 10px 0;
 }
 
 .image1 a {
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color: black;
 }
 
 .image1 a:hover p {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 /* Staff Page Styles */
 .staff .team-member {
-  max-width: 48%;
-  display: inline-block;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  padding: 20px;
+max-width: 48%;
+display: inline-block;
+border-left: 1px solid grey;
+border-right: 1px solid grey;
+padding: 20px;
 }
 
 .staff img {
-  padding-top: 5px;
-  padding-right: 5px;
-  float: left;
-  max-width: 180px;
+padding-top: 5px;
+padding-right: 5px;
+float: left;
+max-width: 180px;
 }
 
 .staff p {
-  font-family: "Times New Roman", Times, serif;
-  float: left;
-  max-width: 180px;
+font-family: "Times New Roman", Times, serif;
+float: left;
+max-width: 180px;
 }
 
 .staff div {
-  text-align: center;
+text-align: center;
 }
 
 /* Center Class Styles */
 .center div {
-  padding-left: 10px;
-  padding-right: 10px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .center img {
-  padding-right: 5px;
-  max-width: 180px;
+padding-right: 5px;
+max-width: 180px;
 }
 
 .center .team-member {
-  max-width: 45%;
-  display: inline-block;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  text-align: center;
+max-width: 45%;
+display: inline-block;
+border-left: 1px solid grey;
+border-right: 1px solid grey;
+text-align: center;
 }
 
 .center {
-  border-bottom: 1px solid grey;
+border-bottom: 1px solid grey;
 }
 
 /* About Page Styles */
 .about header {
-  padding: 20px 0;
-  text-align: center;
+padding: 20px 0;
+text-align: center;
 }
 
-.about h1, .about h2, .about h3 {
-  text-align: center;
+.about h1 {
+margin: 0;
+text-align: center;
 }
 
 .about main {
-  padding: 20px;
+padding: 20px;
 }
 
 .about .about-section {
-  margin: 0 auto;
-  padding: 20px;
+margin: 0 auto;
+padding: 20px;
 }
 
 .about h2 {
-  color: #333;
+color: #333;
+text-align: center;
 }
 
 .about h3 {
-  color: #444;
+color: #444;
+text-align: center;
 }
 
 /* Container Styles */
 .body .container {
-  margin: 20px auto;
-  padding: 20px;
+margin: 20px auto;
+padding: 20px;
 }
 
 .body h2 {
-  text-align: center;
+text-align: center;
 }
 
 .body .service {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .services-list {
-  list-style-type: none;
-  padding: 0;
+list-style-type: none;
+padding: 0;
 }
 
 .service {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
 }
 
 .service img {
-  max-width: 150px;
-  margin-right: 20px;
+max-width: 150px;
+margin-right: 20px;
 }
 
 .service h3 {
-  margin: 0 0 10px 0;
-  text-align: center;
+margin: 0 0 10px 0;
+text-align: center;\
 }
 
 .service p {
-  margin: 0;
+margin: 0;
 }
 
-/* Contact Form Styles */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px auto;
-  max-width: 80%;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+/* Form Styles (Contact Page) */
+form {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+background-color: #f9f9f9;
 }
 
-.contact-form label {
-  margin-bottom: 10px;
-  font-weight: bold;
+form label {
+display: block;
+margin-bottom: 8px;
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+form input[type="text"],
+form input[type="email"],
+form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
 }
 
-.contact-form button {
-  padding: 10px 20px;
-  background-color: #04AA6D;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+form input[type="submit"] {
+background-color: #04AA6D;
+color: white;
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 10px;
+cursor: pointer;
 }
 
-.contact-form button:hover {
-  background-color: #03a05a;
+form input[type="submit"]:hover {
+background-color: #45a049;
 }
 
 /* Table Styles */
-.table-container {
-  max-width: 80%;
-  margin: 20px auto;
-  border-collapse: collapse;
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 20px 0;
 }
 
-.table-container table {
-  width: 100%;
-  border-collapse: collapse;
+table, th, td {
+border: 1px solid #ddd;
 }
 
-.table-container th,
-.table-container td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+th, td {
+padding: 12px;
+text-align: left;
 }
 
-.table-container th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+th {
+background-color: #f2f2f2;
 }
 
-.table-container tr:nth-child(even) {
-  background-color: #f9f9f9;
+/* Video Embed */
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+max-width: 100%;
+background: #000;
 }
 
-.table-container tr:hover {
-  background-color: #ddd;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
+
