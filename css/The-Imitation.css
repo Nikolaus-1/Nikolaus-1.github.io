@@ -20,7 +20,6 @@ h1 {
 .Ifootball {
   filter: grayscale(100%);
   position: absolute;
-  max-width: 25%;
   left: 38%;
   top: 9%;
   border: solid 50px #000;
