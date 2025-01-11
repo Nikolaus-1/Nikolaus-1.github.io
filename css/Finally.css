@@ -46,36 +46,26 @@ background-color: #04AA6D;
 cursor: default;
 }
 
-/* Title Styles */
-.title {
-text-align: center;
-font-family: "Times New Roman", Times, serif;
-font-weight: bold;
-font-style: italic;
-font-size: 2em; / Adjust the size as needed /
-margin: 20px 0; / Adjust the margin as needed */
-}
-
 /* Home Page Styles */
 .home .image1 {
   display: flex;
   align-items: center;
   padding: 10px;
   text-align: left;
-  max-width: 100%;
+  max-width: 80%;
   margin: 0 auto;
-  font-size: 1.3em;
   font-family: "Times New Roman", Times, serif;
 }
 
 .image1 img {
-  max-width: 40%;
+  max-width: 60%; /* Make the image bigger */
   height: auto;
   margin-right: 20px;
 }
 
 .text-content {
-  max-width: 60%;
+  max-width: 40%; /* Adjust the text content width */
+  font-size: 1em; /* Make the text smaller */
 }
 
 .text-content p {
