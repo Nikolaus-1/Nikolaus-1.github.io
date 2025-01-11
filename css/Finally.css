@@ -46,6 +46,14 @@ body {
   cursor: default;
 }
 
+/* Top Heading Styles */
+.top-heading {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* Home Page Styles */
 .home h1 {
   text-align: center;
