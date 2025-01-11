@@ -78,218 +78,207 @@ h1, h2, h3 {
   margin: 0 0 10px 0;
 }
 
-    /* Staff Page Styles */
-    .staff .team-member {
-      max-width: 48%;
-      display: inline-block;
-      border-left: 1px solid grey;
-      border-right: 1px solid grey;
-      padding: 20px;
-    }
+/* Staff Page Styles */
+.staff .team-member {
+  max-width: 48%;
+  display: inline-block;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 20px;
+}
 
-    .staff img {
-      padding-top: 5px;
-      padding-right: 5px;
-      float: left;
-      max-width: 180px;
-    }
+.staff img {
+  padding-top: 5px;
+  padding-right: 5px;
+  float: left;
+  max-width: 180px;
+}
 
-    .staff p {
-      font-family: "Times New Roman", Times, serif;
-      float: left;
-      max-width: 180px;
-    }
+.staff p {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  max-width: 180px;
+}
 
-    .staff div {
-      text-align: center;
-    }
+.staff div {
+  text-align: center;
+}
 
-    /* Center Class Styles */
-    .center div {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+/* Center Class Styles */
+.center div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-    .center img {
-      padding-right: 5px;
-      max-width: 180px;
-    }
+.center img {
+  padding-right: 5px;
+  max-width: 180px;
+}
 
-    .center .team-member {
-      max-width: 45%;
-      display: inline-block;
-      border-left: 1px solid grey;
-      border-right: 1px solid grey;
-      text-align: center;
-    }
+.center .team-member {
+  max-width: 45%;
+  display: inline-block;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  text-align: center;
+}
 
-    .center {
-      border-bottom: 1px solid grey;
-    }
+.center {
+  border-bottom: 1px solid grey;
+}
 
-    /* About Page Styles */
-    .about header {
-      padding: 20px 0;
-      text-align: center;
-    }
+/* About Page Styles */
+.about header {
+  padding: 20px 0;
+  text-align: center;
+}
 
-    .about h1 {
-      margin: 0;
-      text-align: center;
-    }
+.about h1 {
+  margin: 0;
+  text-align: center;
+}
 
-    .about main {
-      padding: 20px;
-    }
+.about main {
+  padding: 20px;
+}
 
-    .about .about-section {
-      margin: 0 auto;
-      padding: 20px;
-    }
+.about .about-section {
+  margin: 0 auto;
+  padding: 20px;
+}
 
-    .about h2 {
-      color: #333;
-      text-align: center;
-    }
+.about h2 {
+  color: #333;
+  text-align: center;
+}
 
-    .about h3 {
-      color: #444;
-      text-align: center;
-    }
+.about h3 {
+  color: #444;
+  text-align: center;
+}
 
-    /* Container Styles */
-    .body .container {
-      margin: 20px auto;
-      padding: 20px;
-    }
+/* Container Styles */
+.body .container {
+  margin: 20px auto;
+  padding: 20px;
+}
 
-    .body h2 {
-      text-align: center;
-    }
+.body h2 {
+  text-align: center;
+}
 
-    .body .service {
-      margin-bottom: 20px;
-    }
+.body .service {
+  margin-bottom: 20px;
+}
 
-    .services-list {
-      list-style-type: none;
-      padding: 0;
-    }
+.services-list {
+  list-style-type: none;
+  padding: 0;
+}
 
-    .service {
-      margin-bottom: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.service {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .service img {
-      max-width: 150px;
-      margin-bottom: 10px;
-    }
+.service img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
 
-    .service h3 {
-      margin: 0 0 10px 0;
-      text-align: center;
-    }
+.service h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
 
-    .service p {
-      margin: 0;
-    }
+.service p {
+  margin: 0;
+}
 
-    /* Form Styles (Contact Page) */
-    form {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
-    }
+/* Form Styles (Contact Page) */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
 
-    form label {
-      display: block;
-      margin-bottom: 8px;
-    }
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
 
-    form input[type="text"],
-    form input[type="email"],
-    form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-    form input[type="submit"] {
-      background-color: #04AA6D;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin-top: 10px;
-      cursor: pointer;
-    }
+form input[type="submit"] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
 
-    form input[type="submit"]:hover {
-      background-color: #45a049;
-    }
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
 
-    /* Table Styles */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
 
-    table, th, td {
-      border: 1px solid #ddd;
-    }
+table, th, td {
+  border: 1px solid #ddd;
+}
 
-    th, td {
-      padding: 12px;
-      text-align: left;
-    }
+th, td {
+  padding: 12px;
+  text-align: left;
+}
 
-    th {
-      background-color: #f2f2f2;
-    }
+th {
+  background-color: #f2f2f2;
+}
 
-    /* Video Container (Services Page) */
-    .video-container {
-      position: relative;
-      padding-bottom: 56.25%; 
-      height: 0;
-      overflow: hidden;
-      max-width: 100%;
-      background: #000;
-    }
+/* Video Container (Services Page) */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+} 
 
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+/* Footer Styles */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-    /* Footer Styles */
-    .footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-
-    .footer img {
-      max-width: 25px;
-      margin-right: 10px;
-    }
+.footer img {
+  max-width: 25px;
+  margin-right: 10px;
+}
