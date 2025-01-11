@@ -1,44 +1,57 @@
-<doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>The News Paper</title>
-    <link rel="stylesheet" href="css/Finally.css"/>
-  </head>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
 
-  <body>
-    <ul class="OuterNavi">
-      <li class="Navi"><a href="home.html">Home</a></li>
-      <li class="Navi"><a href="services.html">Services</a></li>
-      <li class="Navi"><a href="staff.html">Staff</a></li>
-      <li class="Navi"><a class="active" href="contact.html">Contact</a></li>
-      <li class="Navi" style="float:right"><a href="about.html">About</a></li>
-    </ul>
-    <h1>Contact the team</h1>
-    <div class="center">
-      <div style="border-left:none;" class="team-member">
-        <h3>Elliette Le Clair, <i>Head CEO</i></h3>
-        <img src="Images/penguin-150563_1280.png" alt="A penguin image">
-        <p class="info">###-###-####<br>Elliette.Le-CLair_1754@organization.org</p>
-      </div>
-      <div style="border:none;" class="team-member">
-        <h3>Luke Den, <i>Head Researcher</i></h3>
-        <img src="Images/pexels-lestrade84-17811.jpg" alt="A toucan looking off into the distance">
-        <p class="info">###-###-####<br>Luke.Den_9824@organization.org</p>
-      </div>
-      <div class="team-member">
-        <h3>James Franklyn, <i>Head Marketing</i></h3>
-        <img src="Images/animal-3861398_640.png" alt="A cartoon sheep">
-        <p class="info">###-###-####<br>James.Franklyn_2891@organization.org</p>
-      </div>
-      <div style="border:none;" class="team-member">
-        <h4>Jessica Flinch, <i>Secretary</i></h4>
-        <img src="Images/cat-7928232_640.png" alt="A cat coming out of a box">
-        <p class="info">###-###-####<br>Jessica.Flinch_3278@organization.org</p>
-      </div>
+<body>
+  <ul class="OuterNavi">
+    <li class="Navi"><a href="home.html">Home</a></li>
+    <li class="Navi"><a href="services.html">Services</a></li>
+    <li class="Navi"><a href="staff.html">Staff</a></li>
+    <li class="Navi"><a class="active" href="contact.html">Contact</a></li>
+    <li class="Navi" style="float:right"><a href="about.html">About</a></li>
+  </ul>
+
+  <h1 class="title">Contact the Team</h1>
+
+  <div class="center">
+    <div style="border-left:none;" class="team-member">
+      <h3>Elliette Le Clair, <i>Head CEO</i></h3>
+      <img src="Images/penguin-150563_1280.png" alt="A penguin image">
+      <p class="info">###-###-####<br>Elliette.Le-CLair_1754@organization.org</p>
     </div>
-  </body>
+    <div style="border:none;" class="team-member">
+      <h3>Luke Den, <i>Head Researcher</i></h3>
+      <img src="Images/pexels-lestrade84-17811.jpg" alt="A toucan looking off into the distance">
+      <p class="info">###-###-####<br>Luke.Den_9824@organization.org</p>
+    </div>
+    <div class="team-member">
+      <h3>James Franklyn, <i>Head Marketing</i></h3>
+      <img src="Images/animal-3861398_640.png" alt="A cartoon sheep">
+      <p class="info">###-###-####<br>James.Franklyn_2891@organization.org</p>
+    </div>
+    <div style="border:none;" class="team-member">
+      <h4>Jessica Flinch, <i>Secretary</i></h4>
+      <img src="Images/cat-7928232_640.png" alt="A cat coming out of a box">
+      <p class="info">###-###-####<br>Jessica.Flinch_3278@organization.org</p>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="/submit_contact_form" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
 
 </html>
