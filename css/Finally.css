@@ -57,38 +57,30 @@ margin: 20px 0; / Adjust the margin as needed */
 }
 
 /* Home Page Styles */
+/* Home Page Styles */
 .home .image1 {
-display: flex;
-align-items: center;
-padding: 10px;
-text-align: left;
-max-width: 80%;
-margin: 0 auto;
-font-size: 1.3em;
-font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.3em;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .image1 img {
-max-width: 40%;
-height: auto;
-margin-right: 20px;
+  max-width: 40%;
+  height: auto;
+  margin-right: 20px;
 }
 
 .text-content {
-max-width: 60%;
+  max-width: 60%;
 }
 
 .text-content p {
-margin: 0 0 10px 0;
-}
-
-.image1 a {
-text-decoration: none;
-color: black;
-}
-
-.image1 a:hover p {
-text-decoration: underline;
+  margin: 0 0 10px 0;
 }
 
 /* Staff Page Styles */
