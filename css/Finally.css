@@ -148,6 +148,7 @@ body {
 
 .about h1 {
   margin: 0;
+  text-align: center; /* Centered */
 }
 
 .about main {
@@ -161,10 +162,12 @@ body {
 
 .about h2 {
   color: #333;
+  text-align: center; /* Centered */
 }
 
 .about h3 {
   color: #444;
+  text-align: center; /* Centered */
 }
 
 /* Container Styles */
@@ -199,6 +202,7 @@ body {
 
 .service h3 {
   margin: 0 0 10px 0;
+  text-align: center; /* Centered */
 }
 
 .service p {
