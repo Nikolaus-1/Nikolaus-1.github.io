@@ -148,7 +148,7 @@ body {
 
 .about h1 {
   margin: 0;
-  text-align: center;
+  text-align: center; /* Centered */
 }
 
 .about main {
@@ -162,12 +162,12 @@ body {
 
 .about h2 {
   color: #333;
-  text-align: center;
+  text-align: center; /* Centered */
 }
 
 .about h3 {
   color: #444;
-  text-align: center;
+  text-align: center; /* Centered */
 }
 
 /* Container Styles */
@@ -202,7 +202,7 @@ body {
 
 .service h3 {
   margin: 0 0 10px 0;
-  text-align: center; 
+  text-align: center; /* Centered */
 }
 
 .service p {
@@ -262,3 +262,8 @@ th {
   background-color: #f2f2f2;
   color: black;
 }
+
+/* Commenting for future updates */
+/* TODO: Add responsive design styles */
+/* TODO: Improve accessibility (ARIA roles, contrast, etc.) */
+/* TODO: Optimize images for better load times */
