@@ -24,6 +24,7 @@ h1 {
   top: 9%;
   border: solid 50px #000;
   border-image: url(Images/tic-tac-toe.png) 50 round;
+  width: 200px;
 }
 
 .Idinosaur {
