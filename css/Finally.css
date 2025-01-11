@@ -57,13 +57,12 @@ margin: 20px 0; / Adjust the margin as needed */
 }
 
 /* Home Page Styles */
-/* Home Page Styles */
 .home .image1 {
   display: flex;
   align-items: center;
   padding: 10px;
   text-align: left;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   font-size: 1.3em;
   font-family: "Times New Roman", Times, serif;
