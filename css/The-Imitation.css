@@ -1,3 +1,7 @@
+:root {
+  --football-width: 200px;
+}
+
 h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 250%;
@@ -24,7 +28,7 @@ h1 {
   top: 9%;
   border: solid 50px #000;
   border-image: url(Images/tic-tac-toe.png) 50 round;
-  width: 200px;
+  width: var(--football-width);
 }
 
 .Idinosaur {
