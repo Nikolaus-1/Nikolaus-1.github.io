@@ -285,10 +285,6 @@ height: 100%;
   text-align: center;
 }
 
-.body .service {
-  margin-bottom: 20px;
-}
-
 .services-list {
   list-style-type: none;
   padding: 0;
@@ -297,18 +293,13 @@ height: 100%;
 .service {
   margin-bottom: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .service img {
   max-width: 150px;
-  margin-right: 20px;
-}
-
-.service iframe {
-  max-width: 40%;
-  height: auto;
-  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .service h3 {
@@ -317,5 +308,24 @@ height: 100%;
 }
 
 .service p {
-  margin: 0;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
